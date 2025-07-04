@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Das | Android Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="nav-logo">Abhishek Das</div>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#coding-stats">Coding-Stats</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <img
+        src="./assets/ImageResume.jpg"
+        alt="Abhishek's photo"
+        class="profile-img"
+      />
+      <h1>Abhishek Das</h1>
+      <h2>Software Engineer | Android Developer</h2>
+      <p class="intro">
+        Passionate about creating innovative solutions with modern technologies.
+        <br />
+        Specialized in Android development, mobile app systems, and scalable
+        architectures.
+      </p>
+      <div class="hero-buttons">
+        <a
+          href="mailto:asisdas751@gmail.com"
+          class="btn primary"
+          target="_blank"
+          >📩 Get In Touch</a
+        >
+
+        <a
+          href="#"
+          class="btn secondary"
+          onclick="downloadPDFSafe('june_resume.pdf', 'Abhishek_Das_Resume.pdf')"
+        >
+          ⬇️ Download CV
+        </a>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <h2>About Me</h2>
+      <p class="subtitle">
+        A passionate Android developer with a knack for building fast, scalable
+        apps
+      </p>
+      <div class="about-text">
+        <p>
+          I'm a software engineer who thrives in Android environments, with a
+          strong focus on performance, scalability, and clean UI/UX design.
+          During my internship at <strong>Visteon</strong>, I contributed to
+          live automobile projects for companies like <strong>TATA</strong> and
+          <strong>Skoda</strong>, working with Kotlin, XML, and writing unit
+          tests using <strong>JUnit</strong> and <strong>Mockito</strong>.
+        </p>
+        <p>
+          I have hands-on experience with debugging Android apps, consuming REST
+          APIs, and integrating third-party libraries like Retrofit, Glide, and
+          Firebase. I care deeply about writing maintainable, testable code and
+          following modern architecture patterns like MVVM.
+        </p>
+        <p>
+          Outside of work, I enjoy problem-solving in DSA, reading about Android
+          Jetpack components, and exploring new libraries and frameworks in
+          mobile development.
+        </p>
+      </div>
+    </section>
+    <section class="skills-section" id="skills">
+      <h2>Skills & Technologies</h2>
+      <p class="subtitle">Tools, languages, and core CS concepts I work with</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="./assets/icons/kotlin.png" alt="Python" />
+          <span>Kotlin</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/Java.png" alt="Java" />
+          <span>Java</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/Javascript.png" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/HTML.png" alt="HTML/CSS" />
+          <span>HTML</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/css.png" alt="FastAPI" />
+          <span>CSS</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/c.png" alt="Django" />
+          <span>C Language</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/cpp.png" alt="Node.js" />
+          <span>CPP</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/sql.png" alt="Docker" />
+          <span>SQL</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/flutter.png" alt="PostgreSQL" />
+          <span>Flutter</span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/icons/firebase.png" alt="MongoDB" />
+          <span>Firebase</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="experience-section" id="experience">
+      <h2>Work Experience</h2>
+      <p class="subtitle">
+        My professional journey and key contributions in various roles
+      </p>
+
+      <!-- Visteon Internship -->
+      <div class="experience-card">
+        <div class="experience-header">
+          <div>
+            <h3>Software Engineer Intern</h3>
+            <a href="#">Visteon</a>
+          </div>
+          <div class="date">📅 Jan 2025 – Present</div>
+        </div>
+        <ul class="experience-points">
+          <li>
+            Resolved 10+ critical system defects across infotainment systems for
+            clients such as TATA and Skoda.
+          </li>
+          <li>
+            Maintained over 90% unit test coverage using JUnit4 and Mockito,
+            enhancing code reliability.
+          </li>
+          <li>
+            Documented class interactions using UML diagrams via IBM Rhapsody
+            for clearer architecture visualization.
+          </li>
+          <li>
+            Worked with multithreading and activity lifecycle handling to
+            optimize UI transitions and app performance.
+          </li>
+          <li>
+            Utilized Jetpack Compose and XML layouts to modernize and refactor
+            legacy screens.
+          </li>
+        </ul>
+        <div class="experience-tags">
+          <span>Kotlin</span>
+          <span>Java</span>
+          <span>Jetpack Compose</span>
+          <span>XML</span>
+          <span>JUnit</span>
+          <span>Mockito</span>
+          <span>Dagger</span>
+          <span>HILT</span>
+        </div>
+      </div>
+
+      <!-- Sniphat Internship -->
+      <div class="experience-card">
+        <div class="experience-header">
+          <div>
+            <h3>Full-Stack Developer Intern</h3>
+            <a href="#">Sniphat</a>
+          </div>
+          <div class="date">📅 Feb 2024 – May 2024</div>
+        </div>
+        <ul class="experience-points">
+          <li>
+            Led development of a cross-platform Flutter app connecting 1,000+
+            users with career consultants.
+          </li>
+          <li>
+            Built dynamic frontend pages and integrated a custom logic system
+            for question and people search.
+          </li>
+          <li>
+            Implemented features like QR code generator, image cropper, and
+            scanner using Dart libraries.
+          </li>
+          <li>
+            Worked collaboratively with backend in Node.js and Python to ensure
+            seamless functionality.
+          </li>
+        </ul>
+        <div class="experience-tags">
+          <span>Flutter</span>
+          <span>Dart</span>
+          <span>Node.js</span>
+          <span>Python</span>
+          <span>Firebase</span>
+          <span>REST API</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section" id="education">
+      <h2>Education</h2>
+      <p class="subtitle">My academic background and performance</p>
+
+      <div class="education-card">
+        <div class="edu-left">
+          <h3>Bachelor of Technology (CSE)</h3>
+          <a href="#">Haldia Institute of Technology</a>
+          <p>West Bengal, India</p>
+          <p><strong>CGPA:</strong> 8.7 / 10.0</p>
+        </div>
+        <div class="edu-right">📅 Aug 2021 – June 2025</div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <h2>Projects</h2>
+      <p class="subtitle">
+        A selection of my work showcasing various technologies and
+        problem-solving approaches
+      </p>
+
+      <div class="projects-grid">
+        <!-- Project: Crypto Tracker -->
+        <div class="project-card">
+          <img
+            src="./assets/cryptoTracker.png"
+            alt="Crypto Tracker App Screenshot"
+          />
+          <div class="project-info">
+            <h3>Crypto Tracker</h3>
+            <p>
+              Developed a cryptocurrency tracking app using GEEKO-API for
+              real-time price monitoring and 24-hour price changes. Built with
+              Kotlin, XML, and ViewModel to ensure smooth and responsive UI.
+            </p>
+            <div class="tech-tags">
+              <span>Kotlin</span>
+              <span>XML</span>
+              <span>Retrofit</span>
+              <span>ViewModel</span>
+            </div>
+            <a
+              href="https://crypto-tracker-5salsvliz-abhishek-das-projects-439d1dfc.vercel.app/"
+              class="source-link"
+              target="_blank"
+              >🌐 Live Demo</a
+            >
+          </div>
+        </div>
+
+        <!-- Project: News World -->
+        <div class="project-card">
+          <img
+            src="./assets/flutter_news.png"
+            alt="News World App Screenshot"
+          />
+          <div class="project-info">
+            <h3>News World</h3>
+            <p>
+              Cross-platform Flutter news app using NewsAPI. Integrated features
+              like CachedNetworkImage and Showcase to improve UX.
+            </p>
+            <div class="tech-tags">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>NewsAPI</span>
+              <span>Git</span>
+            </div>
+            <a
+              href="https://github.com/IamRonyDas/NewsWorld"
+              class="source-link"
+              target="_blank"
+              >💻 Source Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coding Stats Section -->
+    <section id="coding-stats" class="coding-section">
+      <h2>Coding Activity</h2>
+      <p class="subtitle">Problem Solving</p>
+
+      <div class="coding-platforms">
+        <div class="platform">
+          <h3>LeetCode</h3>
+          <img src="./assets/leetcode.png" alt="LeetCode Stats" />
+        </div>
+        <div class="platform">
+          <h3>GeeksforGeeks</h3>
+          <img src="./assets/gfg.png" alt="GeeksforGeeks Stats" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / About Section -->
+    <section class="contact-section" id="contact">
+      <h2>Get In Touch</h2>
+      <p class="subtitle">
+        I'm always open to discussing new opportunities and interesting projects
+      </p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <p>asisdas751@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 7001685944</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Haldia, West Bengal, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Abhishek Das. Made with ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
