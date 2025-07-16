@@ -39,3 +39,14 @@ const downloadPDFQuick = (path, name) => {
   a.download = name;
   a.click();
 };
+
+const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  // Optional: toggle icon
+  themeToggle.textContent = document.body.classList.contains("dark-mode")
+    ? "☀️"
+    : "🌙";
+});

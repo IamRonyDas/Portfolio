@@ -30,6 +30,14 @@
           <span></span>
           <span></span>
         </div>
+
+        <button
+          id="themeToggle"
+          class="theme-toggle-btn"
+          title="Toggle Dark Mode"
+        >
+          🌙
+        </button>
       </div>
     </header>
 
@@ -54,11 +62,10 @@
           target="_blank"
           >📩 Get In Touch</a
         >
-
         <a
           href="#"
           class="btn secondary"
-          onclick="downloadPDFSafe('june_resume.pdf', 'Abhishek_Das_Resume.pdf')"
+          onclick="downloadPDFSafe('july_resume.pdf', 'Abhishek_Das_Resume.pdf')"
         >
           ⬇️ Download CV
         </a>
@@ -281,26 +288,26 @@
           </div>
         </div>
 
-        <!-- Project: News World -->
+        <!-- Project: AI News App -->
         <div class="project-card">
-          <img
-            src="./assets/flutter_news.png"
-            alt="News World App Screenshot"
-          />
+          <img src="./assets/newsAI.jpg" alt="AI News App Screenshot" />
           <div class="project-info">
-            <h3>News World</h3>
+            <h3>AI News Summarizer</h3>
             <p>
-              Cross-platform Flutter news app using NewsAPI. Integrated features
-              like CachedNetworkImage and Showcase to improve UX.
+              An Android app that fetches the latest news using NewsAPI and
+              provides AI-generated summaries via Gemini API. Built with Kotlin,
+              MVVM, Retrofit, and Coroutines. Supports search, WebView reading,
+              and summarization in brief, detailed, and bullet-point formats.
             </p>
             <div class="tech-tags">
-              <span>Flutter</span>
-              <span>Dart</span>
-              <span>NewsAPI</span>
-              <span>Git</span>
+              <span>Kotlin</span>
+              <span>MVVM</span>
+              <span>Retrofit</span>
+              <span>Gemini API</span>
+              <span>WebView</span>
             </div>
             <a
-              href="https://github.com/IamRonyDas/NewsWorld"
+              href="https://github.com/IamRonyDas/News-App-Kotlin"
               class="source-link"
               target="_blank"
               >💻 Source Code</a
@@ -309,6 +316,7 @@
         </div>
       </div>
     </section>
+
     <!-- Coding Stats Section -->
     <section id="coding-stats" class="coding-section">
       <h2>Coding Activity</h2>
